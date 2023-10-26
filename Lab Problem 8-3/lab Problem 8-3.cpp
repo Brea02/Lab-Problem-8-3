@@ -8,9 +8,6 @@ int romanCharValue(string r);
 int convertRomanToInt(string s);
 
 int main(){
-	//cout << "Enter Roman Numerals: ";
-	//char numeral;
-	//cin >> numeral;
 	string s;
 	while (true) {
 		cout << "Enter Roman Numerals or Q to quit: ";
@@ -19,7 +16,6 @@ int main(){
 		cout << s << " = " << convertRomanToInt(s) << endl;
 	}
 
-	//cout << numeral << " = " << romanCharValue(numeral) << endl;
 }
 
 
